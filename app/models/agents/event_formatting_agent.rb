@@ -54,7 +54,7 @@ module Agents
       {
         :instructions => {
           :message =>  "You received a text <$.text> from <$.fields.from>",
-          :content => "Looks like the weather is going to be <$.fields.weather>"},
+          :some_other_field => "Looks like the weather is going to be <$.fields.weather>"}
         :mode => "clean",
         :skip_agent => "false",
         :skip_created_at => "false"
